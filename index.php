@@ -11,13 +11,14 @@
         <div class="container">
             <div class="row fullscreen d-flex align-items-center justify-content-center">
                 <div class="banner-content col-lg-8 col-md-12">
-                    <img src="img/logo2.png" class="img-responsive" style="height:150px; width:auto" />
+                    <img src="img/logo_2.png" class="img-responsive" style="height:150px; width:auto" />
                     <h1 class="wow fadeIn" data-wow-duration="4s">
-                        Phonix Institute </h1><br>
-                    <h3 class="wow fadeIn text-white" data-wow-duration="6s">
+                        AUBERON </h1>
+                    <h3>professional Institute</h3>
+                    <!-- <h3 class="wow fadeIn text-white" data-wow-duration="6s">
                         Provide Best Cources with best
                         Training Partners
-                    </h3>
+                    </h3> -->
                     <p class="text-white" style="margin-top:50px">
                         Content of Instutute
                     </p>
@@ -124,6 +125,7 @@
     </section>
     <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
         aria-hidden="true">
+
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header text-center">

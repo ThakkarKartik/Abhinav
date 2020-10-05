@@ -2,9 +2,8 @@
     <div class="container">
         <div class="row align-items-center justify-content-between d-flex">
             <div id="logo">
-                <a href="index.html"><img src="img/logo2.png" style="height:50px" alt="" title="" />
+                <a href="index.html"><img src="img/logo_3.png" style="height:80px" alt="" title="" />
 
-                    <span class="text-white"> Phonix </span>
                 </a>
             </div>
             <nav id="nav-menu-container">
