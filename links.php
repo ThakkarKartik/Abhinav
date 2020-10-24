@@ -1,32 +1,51 @@
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Favicon-->
-<link rel="shortcut icon" href="img/fav.png">
-<!-- Author Meta -->
-<meta name="author" content="codepixer">
-<!-- Meta Description -->
-<meta name="description" content="">
-<!-- Meta Keyword -->
-<meta name="keywords" content="">
-<!-- meta character set -->
-<meta charset="UTF-8">
-<!-- Site Title -->
-<title>Phonix Institute | IELTS | Aviation | Spoken English </title>
+<title> ILETS | SPOKEN ENGLISH | AVIATION </title>
 
-<!--
-			Google Font
-			============================================= -->
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500i" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<!--
-			CSS
-			============================================= -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css">
-<link rel="stylesheet" href="css/linearicons.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-<link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" href="css/magnific-popup.css">
-<link rel="stylesheet" href="css/nice-select.css">
-<link rel="stylesheet" href="css/animate.min.css">
-<link rel="stylesheet" href="css/owl.carousel.css">
-<link rel="stylesheet" href="css/main.css">
+
+<!-- stylesheets -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/animate.css">
+<link rel="stylesheet" href="assets/css/owl.carousel.css">
+<link rel="stylesheet" href="assets/css/owl.theme.css">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<style>
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.floatfb {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 120px;
+    right: 40px;
+    background-color: blue;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+</style>
+<!-- scripts -->
+<script type="text/javascript" src="assets/js/modernizr.custom.97074.js"></script>

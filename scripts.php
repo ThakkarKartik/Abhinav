@@ -1,22 +1,61 @@
-<script src="js/vendor/jquery-2.2.4.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=+9194614720&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
+        class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <a href="#"
+        class="floatfb" target="_blank">
+        <i class="fa fa-facebook my-float"></i>
+    </a>
+<script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+<script type="text/javascript" src="assets/js/jquery.hoverdir.js"></script>
+
+
+<!-- script for portfolio section using hoverdirection -->
+<script type="text/javascript">
+$(function() {
+
+    $('.portfolio-item > .item-image').each(function() {
+        $(this).hoverdir({
+            hoverDelay: 75
+        });
+    });
+
+});
 </script>
-<script src="js/vendor/bootstrap.min.js"></script>
-<script type="text/javascript"
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-<script src="js/easing.min.js"></script>
-<script src="js/hoverIntent.js"></script>
-<script src="js/superfish.min.js"></script>
-<script src="js/jquery.ajaxchimp.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/owl-carousel-thumb.min.js"></script>
-<script src="js/jquery.sticky.js"></script>
-<script src="js/jquery.nice-select.min.js"></script>
-<script src="js/parallax.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/mail-script.js"></script>
-<script src="js/main.js"></script>
+
+
+<!-- script for twitter-feed using owl carousel-->
+<script type="text/javascript">
+$(document).ready(function() {
+
+    $("#twit").owlCarousel({
+
+        navigation: true, // Show next and prev buttons
+        slideSpeed: 100,
+        paginationSpeed: 400,
+        navigationText: false,
+        singleItem: true,
+        autoPlay: true,
+        pagination: false
+    });
+
+});
+</script>
+
+
+<!-- script for testimonial section using owl carousel -->
+<script type="text/javascript">
+$(document).ready(function() {
+
+    $("#client-speech").owlCarousel({
+
+        autoPlay: 5000, //Set AutoPlay to 3 seconds
+        stopOnHover: true,
+        singleItem: true
+    });
+
+});
+</script>

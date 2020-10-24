@@ -1,61 +1,91 @@
-<footer class="footer-area section-gap">
+<footer>
     <div class="container">
         <div class="row">
-            <div class="col-lg-2 col-md-6 single-footer-widget">
-                <h4>Top Courses</h4>
-                <ul>
-                    <li><a href="#">IELTS</a></li>
-                    <li><a href="#">Spoken English</a></li>
-                    <li><a href="#">Aviation</a></li>
+
+            <!-- useful links -->
+            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                <h4>Useful Links</h4>
+                <ul class="row footer-links">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="ilets.php">ILETS</a></li>
+                        <li><a href="#">Com. Skills</a></li>
+                        <li><a href="#">Aviation</a></li>
+                        <li><a href="#">AboutUS</a></li>
+                    </div>
+
+                    <!-- <div class="col-md-6 col-sm-6 col-xs-6">
+                        <li><a href="#">Organization</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Media</a></li>
+                        <li><a href="#">24/7</a></li>
+                        <li><a href="#">Right Way</a></li>
+                    </div> -->
                 </ul>
             </div>
-            <div class="col-lg-2 col-md-6 single-footer-widget">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Phonix</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </div>
 
+            <!-- recent news -->
+            <!-- news-letter -->
+            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                <h4>E-News-Letter</h4>
 
-            <div class="col-lg-4 col-md-6 single-footer-widget">
-                <h4>Newsletter</h4>
-                <p>You can trust us. we only send promo offers,</p>
-                <div class="form-wrap" id="mc_embed_signup">
-                    <form target="_blank"
-                        action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                        method="get" class="form-inline">
-                        <input class="form-control" name="EMAIL" placeholder="Your Email Address"
-                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
-                            required="" type="email">
-                        <button class="click-btn btn btn-default"><span class="lnr lnr-arrow-right"></span></button>
-                        <div style="position: absolute; left: -5000px;">
-                            <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-                        </div>
-
-                        <div class="info"></div>
-                    </form>
+                <p>Sign up for our mailing list to get latest updates and offers</p>
+                <div class="input-group margin-bottom-sm">
+                    <input class="form-control" type="text" placeholder="Email address">
+                    <span class="input-group-addon">
+                        <i class="fa fa-paper-plane fa-fw"></i>
+                    </span>
                 </div>
-            </div>
-        </div>
-        <div class="footer-bottom row align-items-center">
-            <p class="footer-text m-0 col-lg-8 col-md-12">
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy;<script>
-                document.write(new Date().getFullYear());
-                </script> All rights reserved | Phonix Institute, Surat
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-            <div class="col-lg-4 col-md-12 footer-social">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-            </div>
+                <p>We respect your privacy</p>
+            </div> <!-- /.footer-widget -->
+
+            <!-- about avada agency -->
+            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                <h4> AUBERON Professional Institute </h4>
+
+                <p>
+                </p>
+
+                <div class="footer-address">
+                    <p>
+                        Phone Number <br>
+                        example@mail.com
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="footer-share-button">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul> <!-- /.footer-share-button -->
+                    </div>
+                </div>
+            </div> <!-- /.footer-widget -->
+
         </div>
     </div>
 </footer>
-<!-- ####################### Start Scroll to Top Area ####################### -->
-<div id="back-top">
-    <a title="Go to Top" href="#"></a>
-</div>
-<!-- ####################### End Scroll to Top Area ####################### -->
+
+<!-- footer-navigation start -->
+<nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <!-- navbar logo -->
+            <div class="navbar-brand">
+                <span class="sr-only">&copy;AUBERON</span>
+                <a href="index.php">
+                    &copy;AUBERON
+                </a>
+            </div>
+            <!-- navbar logo -->
+
+        </div><!-- /.navbar-header -->
+
+        <!-- nav links -->
+        
+
+    </div><!-- /.container -->
+</nav>
